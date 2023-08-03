@@ -1,0 +1,26 @@
+{
+    "name": "bibrokhim/laravel-force-json-response",
+    "description": "Force JSON response for every request",
+    "type": "laravel-package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bibrokhim\\LaravelForceJsonResponse\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bibrokhim\\LaravelForceJsonResponse\\ForceJsonResponseServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Bakhromjon",
+            "email": "bahromjon.ibrohimov@yandex.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
